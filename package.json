@@ -2,29 +2,39 @@
   "name": "openagentflow-support",
   "displayName": "OpenAgentFlow Support",
   "description": "Vscode extension for OpenAgentFlow language support",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "openagentflow",
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/OpenAgentFlow/vscode-openagentflow-support.git"
   },
   "engines": {
-    "vscode": "^1.125.0"
+    "vscode": "^1.100.0"
   },
   "categories": [
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "oaf",
-      "aliases": ["OpenAgentFlow", "oaf"],
-      "extensions": [".oaf",".openagentflow"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "oaf",
-      "scopeName": "source.oaf",
-      "path": "./syntaxes/oaf.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "oaf",
+        "aliases": [
+          "OpenAgentFlow",
+          "oaf"
+        ],
+        "extensions": [
+          ".oaf",
+          ".openagentflow"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "oaf",
+        "scopeName": "source.oaf",
+        "path": "./syntaxes/oaf.tmLanguage.json"
+      }
+    ]
   }
 }
