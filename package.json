@@ -3,6 +3,11 @@
   "displayName": "OpenAgentFlow Support",
   "description": "Vscode extension for OpenAgentFlow language support",
   "version": "0.0.1",
+  "publisher": "openagentflow",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/OpenAgentFlow/vscode-openagentflow-support.git"
+  },
   "engines": {
     "vscode": "^1.125.0"
   },
