@@ -6,7 +6,7 @@ Official Visual Studio Code language support for **OpenAgentFlow (`.oaf`)** — 
 
 ## ✨ Features
 
-- **Full Syntax Highlighting (`source.oaf`)**: Accurate semantic and lexical highlighting for `.oaf` and `.openagentflow` files according to the official OpenAgentFlow language specification (`SPEC.md` / `GRAMMAR.md`).
+- **Full Syntax Highlighting (`source.oaf`)**: Accurate semantic and lexical highlighting for `.oaf` and `.openagentflow` files according to the official OpenAgentFlow language specification.
 - **Keyword & Block Recognition**: Highlighting for top-level workflow blocks (`workflow`, `agent`, `state`, `flow`, `config`).
 - **Type Expressions**: Support for primitive (`string`, `int`, `float`, `bool`) and generic (`list`, `map`) types.
 - **State Options & Decorators**: Distinct highlighting for variable decorators such as `@required`, `@default`, `@description` / `@desc`, `@secret`, `@persist`, `@reducer`, `@min`, `@max`, and `@pattern`.
@@ -76,13 +76,6 @@ workflow "Summarize" {
 2. Go to the Extensions tab (`Ctrl+Shift+X` or `Cmd+Shift+X`).
 3. Search for **OpenAgentFlow Support** or install directly from `.vsix`.
 4. Any file with `.oaf` or `.openagentflow` extension will automatically activate the syntax highlighting and language configuration.
-
----
-
-## 🔗 Related Documentation
-
-- **OpenAgentFlow Specification**: See `spec/SPEC.md` and `spec/GRAMMAR.md` in the core OpenAgentFlow repository.
-- **Compiler & Validator**: Compatible with OpenAgentFlow CLI (`node cli/index.js parse | validate | compile | run | graph`).
 
 ---
 
