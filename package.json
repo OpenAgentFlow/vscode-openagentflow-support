@@ -4,6 +4,7 @@
   "description": "Vscode extension for OpenAgentFlow language support",
   "version": "0.0.2",
   "publisher": "openagentflow",
+  "icon": "oaf-logo_128.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/OpenAgentFlow/vscode-openagentflow-support.git"
