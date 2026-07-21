@@ -2,7 +2,7 @@
   "name": "openagentflow-support",
   "displayName": "OpenAgentFlow Support",
   "description": "Vscode extension for OpenAgentFlow language support",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "openagentflow",
   "icon": "oaf-logo_128.png",
   "repository": {
