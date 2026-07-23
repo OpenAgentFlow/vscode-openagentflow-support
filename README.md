@@ -1,6 +1,49 @@
-# OpenAgentFlow Support (`openagentflow-support`)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OpenAgentFlow/OpenAgentFlow/master/docs/assets/oaf-logo.svg" alt="OpenAgentFlow Logo" width="120"/>
+</p>
+
+# OpenAgentFlow Support
+
+> *What OpenAPI is for REST APIs, **OpenAgentFlow** is for AI agent workflows.*
 
 Official Visual Studio Code language support for **OpenAgentFlow (`.oaf`)** — the portable, runtime-independent specification for AI agent workflows.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OpenAgentFlow/OpenAgentFlow/master/docs/assets/demo.gif" alt="OpenAgentFlow — compile and execute .oaf workflows live" width="720"/>
+</p>
+
+---
+
+## 🚀 Get Started in 60 Seconds
+
+Clone our **[Starter Repository](https://github.com/OpenAgentFlow/OpenAgentFlow-starter)** and run your first multi-agent workflow immediately:
+
+```bash
+git clone https://github.com/OpenAgentFlow/OpenAgentFlow-starter.git my-agents
+cd my-agents
+npm install && npm run setup
+npm run triage
+```
+
+Or install the CLI globally and author workflows from scratch:
+
+```bash
+npm install -g openagentflow
+oaf run my-workflow.oaf --input data.json
+```
+
+> 📖 **Full documentation**: [openagentflow.github.io/OpenAgentFlow](https://openagentflow.github.io/OpenAgentFlow/)
+
+---
+
+## 🔗 Ecosystem
+
+| Resource | Link |
+| :--- | :--- |
+| 📦 **Core Compiler & Spec** | [OpenAgentFlow/OpenAgentFlow](https://github.com/OpenAgentFlow/OpenAgentFlow) |
+| 🚀 **Starter Repository** | [OpenAgentFlow/OpenAgentFlow-starter](https://github.com/OpenAgentFlow/OpenAgentFlow-starter) |
+| 📚 **Documentation** | [openagentflow.github.io/OpenAgentFlow](https://openagentflow.github.io/OpenAgentFlow/) |
+| 📥 **npm Package** | [openagentflow on npm](https://www.npmjs.com/package/openagentflow) |
 
 ---
 
@@ -9,7 +52,7 @@ Official Visual Studio Code language support for **OpenAgentFlow (`.oaf`)** — 
 - **Full Syntax Highlighting (`source.oaf`)**: Accurate semantic and lexical highlighting for `.oaf` and `.openagentflow` files according to the official OpenAgentFlow language specification.
 - **Keyword & Block Recognition**: Highlighting for top-level workflow blocks (`workflow`, `agent`, `state`, `flow`, `config`).
 - **Type Expressions**: Support for primitive (`string`, `int`, `float`, `bool`) and generic (`list`, `map`) types.
-- **State Options & Decorators**: Distinct highlighting for variable decorators such as `@required`, `@default`, `@description` / `@desc`, `@secret`, `@persist`, `@reducer`, `@min`, `@max`, and `@pattern`.
+- **State Options & Decorators**: Distinct highlighting for variable decorators such as `@required`, `@default`, `@description` / `@desc`, `@reducer`, `@min`, and `@max`.
 - **Agent & Config Properties**: Dedicated colorization for property keys (`instructions`, `model`, `provider`, `temperature`, `tools`, `inputs`, `outputs`, `max_iterations`, `timeout_seconds`, `runtime`, `version`).
 - **Multi-Line Triple-Quoted Strings**: Highlighting and auto-closing for `""" ... """` strings and `" ... "` strings with escape sequence recognition (`\n`, `\t`, `\"`, `\\`, etc.).
 - **Flow Operators & Constants**: Colorization for flow graph edges (`->`) and reserved nodes (`start`, `end`).

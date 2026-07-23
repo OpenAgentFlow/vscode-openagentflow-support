@@ -1,8 +1,8 @@
 {
   "name": "openagentflow-support",
   "displayName": "OpenAgentFlow Support",
-  "description": "Vscode extension for OpenAgentFlow language support",
-  "version": "0.0.3",
+  "description": "Official VS Code language support for OpenAgentFlow (.oaf) — What OpenAPI is for REST APIs, OpenAgentFlow is for AI agent workflows.",
+  "version": "0.0.4",
   "publisher": "openagentflow",
   "icon": "oaf-logo_128.png",
   "repository": {
@@ -12,6 +12,17 @@
   "engines": {
     "vscode": "^1.100.0"
   },
+  "keywords": [
+    "openagentflow",
+    "oaf",
+    "ai-agents",
+    "multi-agent",
+    "workflow",
+    "langgraph",
+    "dsl",
+    "llm",
+    "syntax-highlighting"
+  ],
   "categories": [
     "Programming Languages"
   ],
