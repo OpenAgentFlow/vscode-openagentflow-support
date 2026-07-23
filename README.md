@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OpenAgentFlow/OpenAgentFlow/master/docs/assets/oaf-logo.svg" alt="OpenAgentFlow Logo" width="120"/>
+  <img src="oaf-logo_128.png" alt="OpenAgentFlow Logo" width="120"/>
 </p>
 
 # OpenAgentFlow Support
